@@ -1,0 +1,15 @@
+﻿<!--
+  XMLファイルのメンバーを検索します
+
+  <shortcut id="File Member">Alt+\    (ReSharper VisualStudio Keymap)</shortcut>
+  <shortcut id="File Member">Ctrl+F12 (Rider Default IntelliJ Keymap)</shortcut>
+
+  1. element でフィルターします - "person" とポップアップにタイプします
+  2. "name" という attributes の特別サポート (特別扱い) を確認します
+     下のサンプルコードの "named" という attribute を "name" に変更します。
+     ポップアップを表示すると、 "Dave" や "Angela" でフィルターできるようになっています。
+-->
+<people>
+  <person named="Dave" age="32" />
+  <person named="Angela" age="31" />
+</people>
